@@ -1,0 +1,85 @@
+/* Styles for the information card */
+.cardItem {
+    display: flex;
+    width: 300px;
+    height: 525px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .cardItem img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .cardInfo {
+    padding: 10px;
+  }
+  
+  .cardInfo h1 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  
+  .cardInfo span {
+    display: block;
+    margin: 5px 0;
+  }
+  
+ .articleCard {
+    display: flex;
+    justify-content: space-around ;
+ }
+
+ form {
+    padding: 2vw 8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Source Sans Pro';
+    font-size: 1.5rem;
+    margin-left: -90px;
+  }
+  
+  form > div  {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  form select {
+    width: 30%;
+    padding: 2vh 0vw;
+    border-radius: 10px;
+    border: 1.5px solid black;
+  }
+  
+  form button {
+    width: 12%;
+    padding: 2vh 0vw;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    margin-right: -90px;
+  }
+  
+
+  .cardItem button {
+        color: white;
+        width: 80%;
+        padding: 5% 0;
+        margin: 2%;
+        border: none;
+        font-style: normal;
+        text-decoration: none;
+        text-align: center;
+        background: #424242;
+        font-size: 1.5rem;
+        border-radius: 10px;
+  }
