@@ -1,0 +1,26 @@
+a {
+    text-decoration: none;
+    color: rgba(184,190,205,1);
+}
+
+ul {
+    display: block;
+    list-style-type:none;
+}
+
+
+.conteiner {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+p {
+    font-family: 'Mulish';
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: 'Playfair Displey';
+}
+    
