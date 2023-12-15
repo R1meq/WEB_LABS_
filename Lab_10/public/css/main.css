@@ -1,0 +1,62 @@
+.home_main {
+    margin-top: 75px;
+}
+
+.main_title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+}
+
+.main_cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 1px;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+
+.card p {
+    width: 450px;
+}
+
+
+
+.main_button {
+    margin-left: 600px;
+    font-family: 'Inter';
+    margin-top: 50px;
+    width: 250px;
+    height: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(45, 44, 44);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    display: flex;
+    font-size: 25px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+
+.main_button:hover {
+    cursor: pointer;
+    background-color: #5c5a5a;; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper img {
+    margin-right: 150px;
+}
