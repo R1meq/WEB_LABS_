@@ -1,0 +1,173 @@
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #999696;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .cart_left-side img {
+    max-width: 125px;
+    max-height: 125px;
+    margin-right: 10px;
+  }
+
+  .cart_left-side div {
+    margin-left: 40px;
+    font-size: 22.5px;
+    width: 500px;
+    height: 125px;;
+    align-items: center;
+    display: flex;
+  }
+
+  .cart_right-side h3 {
+    width: 150px;
+    font-size: 22.5px;
+    font-weight: 400;
+  }
+
+  .cart_left-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cart_right-side {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+  }
+  
+  .cart_center-side {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+    margin-left: 250px;
+  }
+  
+  .button-add,
+  .button-delete {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .button-add,
+  .button-delete span {
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .button-add:hover {
+    cursor: pointer;
+  }
+
+  .button-delete:hover:not([disabled]) {
+    cursor: pointer;
+  }
+
+  .button-delete:hover[disabled] {
+    cursor: default;
+  }
+  
+  .button-add img,
+  .button-delete img {
+    width: 50px;
+    height: 50px;
+  }
+    
+  .button_delete-item {
+    margin-left: 0px;
+    background-color: #ffffff;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+
+  /* Assuming you have an external CSS file or style block in your component */
+
+.cart-container {
+    max-width: 800px;
+    margin: 20px auto;
+  }
+
+.cart {
+    margin-top: 50px;
+}
+  
+
+ .cart_title {
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+ .cart_title-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .cart_conteiner {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart-total {
+    text-align: right;
+  }
+  
+  .cart-total span {
+    font-weight: bold;
+  }
+
+  .total_price {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .total_price span {
+    margin-left: 75px;
+  }
+
+  .cart_buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -100px;
+    margin-top: 100px;
+  }
+
+
+  .cart_buttons button {
+    padding: 1.5vh 1.5vw;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+  }
+
+
+  
+
+  
+  
