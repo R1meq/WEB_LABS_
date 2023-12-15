@@ -1,0 +1,55 @@
+footer {
+    background: rgba(248, 248, 248, 1);
+}
+
+.footer__branding {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 31px;
+}
+
+.footer__branding__logo {
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 17px;
+  }
+
+.footer__hr {
+    margin: 26px 0px 31px;
+    height: 1px;
+    background: #cdd1d4;
+    border: 0;
+}
+
+.footer__social__link {
+    width: 25px;
+    height: 20px;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    max-height: 23px;
+}
+
+.footer__navigation {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+
+.footer__social a:not(:first-child) {
+    margin-left: 35px;
+}
+
+.footer__branding__date {
+    font-family: Mulish;
+    font-size: 1.0625rem;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #848484;
+}
+

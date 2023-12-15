@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+</head>
+
+<body>
+    <section class="hero">
+        <div class="conteiner">
+            <header class="header">
+                <div class="logo">
+                    <img src="image/header-logo.svg" alt="header logo image">
+                </div>
+                <nav id="nav-links" class="header__nav">
+                    <ul>
+                        <li class="header__nav--item"><a href="">Home</a></li>
+                        <li class="header__nav--item"><a href="">Destination</a></li>
+                        <li class="header__nav--item"><a href="">About</a></li>
+                        <li class="header__nav--item"><a href="">Parther</a></li>
+                        <li class="header__nav--item"><a href=""> 
+                            <div class="button-login">Login</div></a>
+                        </li>
+                        <li class="header__nav--item"><a href=""> 
+                            <div class="button-register">Register</div></a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__menu" onclick="toggleMenu()">
+                    <img src="image/menu-icon.svg" alt="Menu icon">
+                </div>
+            </header>
+            <div class="hero__conteiner">
+                <div class="hero__inner">
+                    <h1 class="hero__title">Explore and Travel</h1>
+                    <form>
+                        <h4 class="hero__title-finder">Holiday finder</h4>
+                        <div class="hero__rectangle"></div>
+                        <div class="seclect__options">
+                            <div class="select__wrapper">
+                                <select>
+                                    <option disabled hidden selected value>Location</option>
+                                    <option value="lviv">Lviv</option>
+                                </select>
+                                <div class="wrapper__arrow"></div>
+                            </div>
+                            <div class="select__wrapper">
+                                <select>
+                                    <option disabled hidden selected>Activity</option>
+                                    <option value="lviv">Lviv</option>
+                                </select>
+                                <div class="wrapper__arrow"></div>
+                            </div>
+                            <div class="select__wrapper">
+                                <select>
+                                    <option disabled hidden selected>Grade</option>
+                                    <option value="lviv">Lviv</option>
+                                </select>
+                                <div class="wrapper__arrow"></div>
+                            </div>
+                            <div class="select__wrapper">
+                                <select>
+                                    <option disabled hidden selected>Date</option>
+                                    <option value="lviv">Lviv</option>
+                                </select>
+                                <div class="wrapper__arrow"></div>
+                            </div>
+                            <button class="explore_button">Explore</button>
+                    </form>
+                </div>
+            </div>
+            <div class="hero__image">
+                <img src="image/hero-image.svg" alt="hero image">
+            </div>
+        </div>
+    </section>
+    <section class="intro">
+        <div class="conteiner">
+            <img src="image/intro-image.svg" alt="intro image" class="intro__image">
+            <div class="intro__inner">
+                <h1 class="title">A new way to explore the world</h1>
+                <p class="paragraph">
+                    For decades travellers have reached for Lonely Planet
+                    books when looking to plan and execute their perfect
+                    trip, but now, they can also let Lonely Planet Experiences
+                    lead the way
+                </p>
+                <a href="">
+                    <div class="button_learn-more">Learn more</div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="locations">
+        <div class="conteiner">
+            <div class="locations__wrapper_inner">
+                <h1 class="title">Featured destinations</h1>
+                <a href="">
+                    <div class="side_title">
+                        <h1 class="inner__title">View all</h1>
+                        <div class="inner__image"><img src="image/Vector__horizontal.svg" alt="vector"></div>
+                    </div>
+                </a>
+            </div>
+            <div class="wrapper__images">
+                <div class="location__image">
+                    <div class="image"><img src="image/1-image.svg" alt="Raja ampat image"></div>
+                    <div class="image__title">
+                        <h3 class="name">Raja Ampat<h3>
+                                <h6 class="country">Indonesia<h6>
+                    </div>
+                </div>
+                <div class="location__image">
+                    <div class="image"><img src="image/2-image.svg" alt="Raja ampat image"></div>
+                    <div class="image__title">
+                        <h3 class="name">Fanjingshan<h3>
+                                <h6 class="country">China<h6>
+                    </div>
+                </div>
+                <div class="location__image">
+                    <div class="image">
+                        <img src="image/3-image.svg" alt="Raja ampat image">
+                    </div>
+                    <div class="image__title">
+                        <h3 class="name">Vevey<h3>
+                                <h6 class="country">Switzerland<h6>
+                    </div>
+                </div>
+                <div class="location__image">
+                    <div class="image">
+                        <img src="image/4-image.svg" alt="Raja ampat image">
+                    </div>
+                    <div class="image__title">
+                        <h3 class="name">Skadar<h3>
+                                <h6 class="country">Montenegro<h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="conteiner">
+            <div class="footer__branding">
+                <div class="footer__branding__logo">
+                    <img src="/image/header-logo.svg" alt="header logo image">
+                </div>
+                <div class="footer__branding__date">
+                    ©2020 Thousand Sunny. All rights reserved
+                </div>
+            </div>
+            <hr class="footer__hr">
+            <div class="footer__navigation">
+                <div class="footer__social">
+                    <a href="">
+                        <div class="footer__social__link">
+                            <img src="image/Vector (1).svg" alt="twitter socal icon">
+                        </div>
+                        <a href="">
+                            <div class="footer__social__link">
+                                <img src="image/Vector (2).svg" alt="facebook socal icon">
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="footer__social__link"><img src="image/social-instagram.svg"
+                                    alt="instagram socal icon"></div>
+                        </a>
+                        <a href="">
+                            <div class="footer__social__link"><img src="image/social-linkedin.svg"
+                                    alt="linkedin socal icon"></div>
+                        </a>
+                        <a href="">
+                            <div class="footer__social__link"><img src="image/social-youtube.svg"
+                                    alt="youtube socal icon">
+                            </div>
+                        </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

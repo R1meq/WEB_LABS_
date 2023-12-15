@@ -1,0 +1,53 @@
+main {
+    margin-top: 0px;
+}
+
+.main_title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main_cards {
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.card p {
+    width: 450px;
+}
+
+.main_button {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_button a {
+    font-family: 'Inter';
+    margin-top: 50px;
+    width: 250px;
+    height: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    display: flex;
+    font-size: 30px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+
+.main_button a:hover {
+    background-color: #424242; 
+}

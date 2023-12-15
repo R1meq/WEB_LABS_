@@ -1,0 +1,65 @@
+:root {
+    --color-main-orange: orange;
+    --color-dark: #111b47;
+    --color-font-dark: #091133;
+    --font-size-md: 1rem;
+    --font-size-sm: 0.875rem;
+    --font-size-xs: 0.75rem;
+}
+
+body {
+    font-family: 'Inter';
+    color: rgba(0, 0, 0, 1);
+}
+
+a {
+    text-decoration: none;
+    color: rgba(184, 190, 205, 1);
+}
+
+ul {
+    display: block;
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+.conteiner {
+    max-width: 1219px;
+    margin: 0 auto;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 2.25rem;
+    margin-bottom: 16px;
+    line-height: 3rem;
+}
+
+
+.title {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: var(--color-font-dark);
+    margin-bottom: 16px;
+    line-height: 3rem;
+  }
+  
+  .paragraph {
+    font-family: 'Mulish';
+    font-size: 1.0625rem;
+    font-weight: 300;
+    line-height: 1.875rem;
+    letter-spacing: 0em;
+    text-align: left; 
+    margin-bottom: 39px;
+    margin-top: 20px;   
+    color: rgba(125, 121, 135, 1);
+    white-space: pre-line;
+  }
+  
+  .img-container {
+    max-width: 100%;
+  }
+  
+  

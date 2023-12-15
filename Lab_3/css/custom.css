@@ -1,0 +1,113 @@
+
+body {
+    
+}
+
+.conteiner {
+    width: 1920px;
+    margin: 0 auto;
+    display: flex;
+}
+.image{
+    width: 200px;
+    height: 200px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.item {
+    width: 20vw;
+    height: 20vh;
+    position: relative;
+}
+
+.card_body {
+    width: 100px;
+    height: 100px;
+}
+
+.item .card_body {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+ul li {
+  border: 1px solid #539a6b;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  background: rgb(232, 230, 228);
+}
+
+
+ul {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    gap: 15px;
+}
+
+
+aside {
+    width: 15vw;
+    height: 70vh;
+    border-right: 2px solid rgb(233, 230, 230);
+    border-bottom: 2px solid rgb(233, 230, 230) ;
+}
+
+.create_button {
+    font-size: 18px;
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.create_button:hover {
+    background-color: #181818;
+    color: white;
+}
+
+input:focus {
+    border: 3px solid #555;
+}
+
+.button {
+    font-size: 15px;
+    margin-top: 20px;
+    width: 100px;
+    height: 25px;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #181818;
+    color: white;
+}
+
+.select_oprions {
+    display: flex;
+    flex-direction: column;
+}
+
+select {
+    width: 240px;
+    height: 25px;
+}
+
+.search_input {
+    width: 233.5px;
+    height: 18px;
+}
